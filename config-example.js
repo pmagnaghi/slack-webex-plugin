@@ -1,12 +1,12 @@
 var slackbot = require('./lib/bot');
 
 var config = {
-    bot_name: "WebexBot",//Provide the name to post under.  Default is WebexBo
-    token: 'XXXX-XXXXXXXXXX-XXXXXXXXXX-XXXXXXXXXX-XXXXXX',
+    bot_name: "WebExCTO",//Provide the name to post under.  Default is WebexBo
+    token: 'xoxp-2535239080-2535280320-19399096774-13036fbf06',
     webex_urls: {
-      "launch": "https://mypath.webex.com/meet/",//REPLACE THESE W/ YOUR COMPANY URLs
-      "join": "https://mypath.webex.com/join/",
-      "DEFAULT": "https://mypath.webex.com/"
+      "launch": "https://go.webex.com/meet/",//REPLACE THESE W/ YOUR COMPANY URLs
+      "join": "https://go.webex.com/join/",
+      "DEFAULT": "https://go.webex.com/"
     },
     pattern: /^\:webex\s+(personal\s+(\w+))\s*$/, //Default is: /webex personal username
     verbose: true,
